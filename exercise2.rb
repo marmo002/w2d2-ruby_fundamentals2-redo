@@ -1,6 +1,6 @@
 
 def negative?(number)
-  if number.to_i < 0
+  if number < 0
     return true
   else
     return false
